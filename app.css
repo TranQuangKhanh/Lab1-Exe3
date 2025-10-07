@@ -1,0 +1,162 @@
+div {
+  display: block;
+}
+
+body {
+  background-color: #fff;
+}
+
+#menu {
+  position: sticky;
+  top: 0;
+  background-color: #009dcb;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  z-index: 999;
+}
+
+#menu ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#menu ul li {
+  display: inline;
+  margin-right: 25px;
+}
+
+#menu ul li a {
+  font-size: 150%;
+  font-weight: bold;
+  text-decoration: none;
+  color: #cedee3;
+  padding: 15px 10px;
+  transition: color 0.5s, background 0.5s;
+}
+
+#menu ul li a:hover {
+  color: #fff;
+}
+
+.col-md-12 {
+  position: relative;
+  min-height: 1px;
+  margin-top: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+img#logo {
+  width: 15%;
+  height: auto;
+}
+
+#navbar {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: inline-block;
+  width: 60%;
+}
+
+#navbar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#navbar ul li {
+  display: inline;
+  margin-right: 25px;
+}
+
+#navbar ul li a {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px auto;
+  transition: color 0.5s;
+}
+
+#navbar ul li a:hover {
+  color: #ff6800;
+}
+
+#subscribe-button {
+  border-radius: 5px;
+  border: 1px solid #cedee3;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  float: right;
+  margin: 10px 0px;
+  transition: color 0.5s, background 0.5s;
+}
+
+span:hover {
+  background-color: #009dcb;
+}
+.notice-container {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px 20px;
+  margin: 30px 100px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.notice-header {
+  background-color: #e9f1fb;
+  color: #003c96;
+  font-weight: bold;
+  padding: 8px 10px;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.notice-list {
+  list-style-type: none;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.notice-list li {
+  padding: 5px 0;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 14px;
+}
+
+.notice-list li:last-child {
+  border-bottom: none;
+}
+
+.notice-list a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.notice-list a:hover {
+  text-decoration: underline;
+}
+
+.see-more {
+  display: block;
+  text-align: right;
+  color: #0066cc;
+  font-size: 13px;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.see-more:hover {
+  text-decoration: underline;
+}
